@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dfea267144c00536",
+        "id": "22a876320cdfe2e0",
         "type": "tabs",
         "children": [
           {
-            "id": "b938c74350ad3f9c",
+            "id": "721d898a49739a3e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,7 +94,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +112,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from README"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,16 +140,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "1b951885758530ba",
+            "type": "leaf",
+            "state": {
+              "type": "QUICKSHARE_SIDE_VIEW",
+              "state": {},
+              "icon": "cloud",
+              "title": "QuickShare"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -169,6 +177,8 @@
       "bases:Create new base": false
     }
   },
-  "active": "b938c74350ad3f9c",
-  "lastOpenFiles": []
+  "active": "1b951885758530ba",
+  "lastOpenFiles": [
+    "README.md"
+  ]
 }

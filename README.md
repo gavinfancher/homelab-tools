@@ -1,3 +1,6 @@
-# homelab
+### homelab
 
-what am i putting here?
+
+```
+This is interesting
+```
