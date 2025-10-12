@@ -7,5 +7,14 @@
       ],
       "key": "I"
     }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-vaults": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "V"
+    }
   ]
 }
