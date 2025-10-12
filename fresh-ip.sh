@@ -24,17 +24,9 @@ sudo rm -f /etc/machine-id
 sudo rm -f /var/lib/dbus/machine-id
 sudo systemd-machine-id-setup
 
-# Clear Tailscale state to get new identity
-echo "Clearing Tailscale state..."
-sudo systemctl stop tailscaled
-sudo rm -f /var/lib/tailscale/tailscaled.state
-
 # Apply netplan to get new DHCP IP (if using netplan)
 echo "Applying network configuration..."
 sudo netplan apply
-
-# Restart Tailscale
-sudo systemctl start tailscaled
 
 echo ""
 echo "VM preparation complete!"
