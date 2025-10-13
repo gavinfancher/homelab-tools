@@ -1,0 +1,3 @@
+
+[alias]
+	flow = "!f() { \\\n    read -rp \"Enter commit message: \" msg; \\\n    if [[ -z \"$msg\" ]]; then echo \"Commit message cannot be empty.\"; return 1; fi; \\\n    git add .; git commit -m \"$msg\"; git push; \\\n}; f"
