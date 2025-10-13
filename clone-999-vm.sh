@@ -1,7 +1,7 @@
 #!/bin/bash
 
 default_source=999
-defualt_storage="samsung-2tb-a"
+defualt_storage="samsung-2tb-b"
 
 echo "using $default_source as source for clone"
 read -p "clone number (new VMID): " clone_number
