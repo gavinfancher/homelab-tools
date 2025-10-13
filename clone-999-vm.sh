@@ -12,6 +12,6 @@ read -p "clone cores: " clone_cores
 read -p "clone memory (in GB): " clone_mem_in_GB
 clone_mem_in_MB=$((clone_mem_in_GB * 1024))
 
-qm clone $clone_source $clone_number --name $clone_name --full --storage $clone_location
+qm clone $clone_source $clone_number --name $clone_name --full --storage $defualt_storage
 qm set $clone_number --cores $clone_cores --memory $clone_mem_in_MB
 qm start $clone_number
