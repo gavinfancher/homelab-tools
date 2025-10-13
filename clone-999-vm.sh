@@ -6,7 +6,7 @@ defualt_storage="samsung-2tb-a"
 echo "using $default_source as source for clone"
 read -p "clone number (new VMID): " clone_number
 read -p "clone name: " clone_name
-each "using $defualt_storage as storage for clone"
+echo "using $defualt_storage as storage for clone"
 
 read -p "clone cores: " clone_cores
 read -p "clone memory (in GB): " clone_mem_in_GB
